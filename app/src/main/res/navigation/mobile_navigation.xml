@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.linnik.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.linnik.mireaproject.ui.calculator.CalculatorFragment"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.linnik.mireaproject.ui.web_view.WebFragment"
+        android:label="@string/menu_browser"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.linnik.mireaproject.ui.audio.AudioFragment"
+        android:label="Audio Player"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_permission"
+        android:name="ru.mirea.linnik.mireaproject.ui.permission.PermissionFragment"
+        android:label="Camera and Recorder"
+        tools:layout="@layout/fragment_permission" />
+    <fragment
+        android:id="@+id/nav_parametrs"
+        android:name="ru.mirea.linnik.mireaproject.ui.parameters.Parametrs"
+        android:label="fragment_parametrs"
+        tools:layout="@layout/fragment_parametrs" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="ru.mirea.linnik.mireaproject.ui.stories.History"
+        android:label="Stories"
+        tools:layout="@layout/fragment_history" />
+</navigation>

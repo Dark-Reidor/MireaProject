@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_calculator" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_browser" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Audio Player" />
+        <item
+            android:id="@id/nav_permission"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Camera and Recorder" />
+        <item
+            android:id="@id/nav_parametrs"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Parameters" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Stories" />
+    </group>
+</menu>
